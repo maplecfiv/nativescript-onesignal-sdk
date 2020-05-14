@@ -74,10 +74,10 @@ if (app.ios) {
      TnsOneSignal.initWithLaunchOptionsAppIdHandleNotificationReceivedHandleNotificationActionSettings({},
             <your-onesignal-app-id>,
             (notificationReceived) => {
-                console.log(notification);
+                console.log(notificationReceived);
             },
             (notificationAction) => {
-                console.log(notification);
+                console.log(notificationAction);
             });
 }
 ```
